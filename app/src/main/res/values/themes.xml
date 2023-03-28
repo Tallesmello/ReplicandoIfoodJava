@@ -13,4 +13,11 @@
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="botaoPadrao" parent="Theme.AppCompat.Light">
+        <item name="color">#ff404e</item>
+        <item name="colorButtonNormal">?attr/colorSecondary</item>
+        <item name="android:textColor">@android:color/white</item>
+
+    </style>
 </resources>
