@@ -14,7 +14,8 @@
         android:src="@drawable/logo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/description_img_auth" />
 
     <EditText
         android:id="@+id/et_email_auth"
@@ -24,11 +25,12 @@
         android:padding="16dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
-        android:hint="Email"
+        android:hint="@string/email_auth"
         android:inputType="textEmailAddress"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/img_logo_auth" />
+        app:layout_constraintTop_toBottomOf="@+id/img_logo_auth"
+        android:autofillHints="Digite seu email"/>
 
     <EditText
         android:id="@+id/et_senha_auth"
@@ -38,11 +40,12 @@
         android:padding="16dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
-        android:hint="Senha"
+        android:hint="@string/senha_auth"
         android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/et_email_auth" />
+        app:layout_constraintTop_toBottomOf="@+id/et_email_auth"
+        android:autofillHints="Digite sua senha" />
 
     <LinearLayout
         android:id="@+id/ll_logar_auth"
@@ -60,20 +63,21 @@
             android:id="@+id/tv_logar_auth"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="logar"
+            android:text="@string/logar_auth"
             android:layout_marginEnd="8dp"
             android:textColor="@color/white"/>
 
         <Switch
             android:id="@+id/sw_cadastre_se_auth"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            tools:ignore="UseSwitchCompatOrMaterialXml" />
 
         <TextView
             android:id="@+id/tv_cadastre_se_auth"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="cadastre-se"
+            android:text="@string/cadastre_se_auth"
             android:textColor="@color/white"/>
     </LinearLayout>
 
@@ -81,7 +85,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:theme="@style/botaoPadrao"
-        android:text="acessar"
+        android:text="@string/acessar_auth"
         android:layout_marginTop="10dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"

@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">ReplicandoIfood</string>
+    <string name="senha_auth">Senha</string>
+    <string name="email_auth">Email</string>
+    <string name="description_img_auth">Logo vermelho com a palavra ifood</string>
+    <string name="logar_auth">logar</string>
+    <string name="cadastre_se_auth">cadastre-se</string>
+    <string name="acessar_auth">acessar</string>
 </resources>
