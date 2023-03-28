@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "446289524385",
+    "project_id": "replicandoifood",
+    "storage_bucket": "replicandoifood.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:446289524385:android:9f46ff685022297434a2e0",
+        "android_client_info": {
+          "package_name": "com.example.replicandoifood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "446289524385-pqj8hc3ih2qv0srp6nob2sd2o0j0vcv5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.replicandoifood",
+            "certificate_hash": "8cd8d005bbd58b003f72aca62c4daad1582e1d3c"
+          }
+        },
+        {
+          "client_id": "446289524385-jc37pg8238uaotdcc9lbsjeli7be9n99.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQooOJ3aFtsf9Hg6lSXbZmf5polZvl9WU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "446289524385-jc37pg8238uaotdcc9lbsjeli7be9n99.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

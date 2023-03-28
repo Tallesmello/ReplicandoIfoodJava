@@ -68,7 +68,7 @@
             android:textColor="@color/white"/>
 
         <Switch
-            android:id="@+id/sw_cadastre_se_auth"
+            android:id="@+id/sw_tipo_acesso_auth"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             tools:ignore="UseSwitchCompatOrMaterialXml" />
@@ -82,6 +82,7 @@
     </LinearLayout>
 
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_acessar_auth"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:theme="@style/botaoPadrao"
