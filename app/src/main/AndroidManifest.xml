@@ -12,7 +12,10 @@
         android:theme="@style/Theme.ReplicandoIfood"
         tools:targetApi="31">
         <activity
-            android:name=".activity.AutorizacaoActivity"
+            android:name=".activity.HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.AutenticacaoActivity"
             android:exported="false" />
         <activity
             android:name=".activity.SplashActivity"
